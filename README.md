@@ -1,12 +1,104 @@
-# React + Vite
+# 📌 Educase Assignment 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **React (Vite)** application demonstrating a simple **user
+onboarding flow** with signup, login, and dashboard screens.\
+This project is designed to showcase **modern UI design**, **scalable
+React architecture**, and deployment on **GitHub Pages**.
 
-Currently, two official plugins are available:
+------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+-   🔑 **Authentication Flow** -- Signup, Login, and Dashboard pages\
+-   🎨 **Responsive UI** -- Built with TailwindCSS for mobile-first
+    design\
+-   🛠 **Routing** -- Implemented with React Router v6\
+-   ⚡ **Fast Build** -- Powered by Vite for lightning-fast dev & build\
+-   🌍 **Deployed** on GitHub Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+------------------------------------------------------------------------
+
+## 🚀 Live Demo
+
+👉 [View Project
+Here](https://seedart007.github.io/Educase-Assignment/)
+
+------------------------------------------------------------------------
+
+## 🖼 Screenshots
+
+-   **Welcome Page** -- Entry point with Signup / Login options\
+-   **Signup Page** -- Create a new account with details\
+-   **Login Page** -- Authenticate into the app\
+-   **Dashboard** -- View user profile & account info
+
+------------------------------------------------------------------------
+
+## 🛠 Tech Stack
+
+-   **React (Vite)** -- Frontend framework\
+-   **React Router v6** -- Client-side routing\
+-   **TailwindCSS** -- Styling & responsive design\
+-   **GitHub Pages** -- Deployment
+
+------------------------------------------------------------------------
+
+## 📂 Project Structure
+
+    src/
+    ├── components/  
+    ├── App.js
+    └── main.jsx
+
+------------------------------------------------------------------------
+
+## ⚡ Getting Started
+
+### 1. Clone the Repo
+
+``` bash
+git clone https://github.com/<your-username>/Educase-Assignment.git
+cd Educase-Assignment
+```
+
+### 2. Install Dependencies
+
+``` bash
+npm install
+```
+
+### 3. Run Locally
+
+``` bash
+npm run dev
+```
+
+App will be running on: `http://localhost:5173`
+
+### 4. Build for Production
+
+``` bash
+npm run build
+```
+
+### 5. Deploy to GitHub Pages
+
+``` bash
+npm run deploy
+```
+
+------------------------------------------------------------------------
+
+## 🔮 Future Improvements
+
+-   Add real backend integration (Node/Express or Firebase)\
+-   Implement JWT authentication\
+-   Save user session & profile data\
+-   Dark mode support
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Author
+
+Developed by Siddhartha Chakraborty\
+For internship assignment @ **Educase**
